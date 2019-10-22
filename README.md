@@ -1,5 +1,8 @@
 [Windows10 搭建OpenGL ES 3.0 开发环境](https://www.jianshu.com/p/b5f8627d9cbc)
 
+
+![运行截图](https://github.com/103style/opengles3-book/blob/master/screenshot.png)
+
 OpenGL ES 3.0 Programming Guide
 ===============================
 
