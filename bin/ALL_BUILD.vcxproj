@@ -1,0 +1,293 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{2B961FF7-C67E-331D-8097-13F1B2E2A882}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\opengles3-book\External\Include;D:\opengles3-book\Common\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\opengles3-book\External\Include;D:\opengles3-book\Common\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\opengles3-book\External\Include;D:\opengles3-book\Common\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\opengles3-book\External\Include;D:\opengles3-book\Common\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\opengles3-book\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule D:/opengles3-book/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SD:/opengles3-book -BD:/opengles3-book/bin --check-stamp-file D:/opengles3-book/bin/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/opengles3-book/CMakeLists.txt;D:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCInformation.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCXXInformation.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCommonLanguageInclude.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\CMakeGenericSystem.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\CMakeInitializeConfigs.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\CMakeLanguageInformation.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\CMakeRCInformation.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\CMakeSystemSpecificInformation.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\CMakeSystemSpecificInitialize.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\Platform\WindowsPaths.cmake;D:\opengles3-book\CMakeLists.txt;D:\opengles3-book\bin\CMakeFiles\3.14.1\CMakeCCompiler.cmake;D:\opengles3-book\bin\CMakeFiles\3.14.1\CMakeCXXCompiler.cmake;D:\opengles3-book\bin\CMakeFiles\3.14.1\CMakeRCCompiler.cmake;D:\opengles3-book\bin\CMakeFiles\3.14.1\CMakeSystem.cmake;D:\opengles3-book\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\opengles3-book\bin\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule D:/opengles3-book/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SD:/opengles3-book -BD:/opengles3-book/bin --check-stamp-file D:/opengles3-book/bin/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/opengles3-book/CMakeLists.txt;D:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCInformation.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCXXInformation.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCommonLanguageInclude.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\CMakeGenericSystem.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\CMakeInitializeConfigs.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\CMakeLanguageInformation.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\CMakeRCInformation.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\CMakeSystemSpecificInformation.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\CMakeSystemSpecificInitialize.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\Platform\WindowsPaths.cmake;D:\opengles3-book\CMakeLists.txt;D:\opengles3-book\bin\CMakeFiles\3.14.1\CMakeCCompiler.cmake;D:\opengles3-book\bin\CMakeFiles\3.14.1\CMakeCXXCompiler.cmake;D:\opengles3-book\bin\CMakeFiles\3.14.1\CMakeRCCompiler.cmake;D:\opengles3-book\bin\CMakeFiles\3.14.1\CMakeSystem.cmake;D:\opengles3-book\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\opengles3-book\bin\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule D:/opengles3-book/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SD:/opengles3-book -BD:/opengles3-book/bin --check-stamp-file D:/opengles3-book/bin/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:/opengles3-book/CMakeLists.txt;D:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCInformation.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCXXInformation.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCommonLanguageInclude.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\CMakeGenericSystem.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\CMakeInitializeConfigs.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\CMakeLanguageInformation.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\CMakeRCInformation.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\CMakeSystemSpecificInformation.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\CMakeSystemSpecificInitialize.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\Platform\WindowsPaths.cmake;D:\opengles3-book\CMakeLists.txt;D:\opengles3-book\bin\CMakeFiles\3.14.1\CMakeCCompiler.cmake;D:\opengles3-book\bin\CMakeFiles\3.14.1\CMakeCXXCompiler.cmake;D:\opengles3-book\bin\CMakeFiles\3.14.1\CMakeRCCompiler.cmake;D:\opengles3-book\bin\CMakeFiles\3.14.1\CMakeSystem.cmake;D:\opengles3-book\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\opengles3-book\bin\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule D:/opengles3-book/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SD:/opengles3-book -BD:/opengles3-book/bin --check-stamp-file D:/opengles3-book/bin/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:/opengles3-book/CMakeLists.txt;D:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCInformation.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCXXInformation.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCommonLanguageInclude.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\CMakeGenericSystem.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\CMakeInitializeConfigs.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\CMakeLanguageInformation.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\CMakeRCInformation.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\CMakeSystemSpecificInformation.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\CMakeSystemSpecificInitialize.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows.cmake;D:\Program Files\CMake\share\cmake-3.14\Modules\Platform\WindowsPaths.cmake;D:\opengles3-book\CMakeLists.txt;D:\opengles3-book\bin\CMakeFiles\3.14.1\CMakeCCompiler.cmake;D:\opengles3-book\bin\CMakeFiles\3.14.1\CMakeCXXCompiler.cmake;D:\opengles3-book\bin\CMakeFiles\3.14.1\CMakeRCCompiler.cmake;D:\opengles3-book\bin\CMakeFiles\3.14.1\CMakeSystem.cmake;D:\opengles3-book\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\opengles3-book\bin\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\opengles3-book\bin\ZERO_CHECK.vcxproj">
+      <Project>{D37E75C5-CEC7-39F8-A406-9E65FF81F18E}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\opengles3-book\bin\Common\Common.vcxproj">
+      <Project>{8A3A92A6-A652-3576-81BA-F9C1CD8FA5ED}</Project>
+      <Name>Common</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\opengles3-book\bin\Chapter_6\Example_6_3\Example_6_3.vcxproj">
+      <Project>{D3168BA8-47FC-346F-9239-BD8A170FAA39}</Project>
+      <Name>Example_6_3</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\opengles3-book\bin\Chapter_6\Example_6_6\Example_6_6.vcxproj">
+      <Project>{D16233DD-1646-37B0-BD96-E392D0D9D32F}</Project>
+      <Name>Example_6_6</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\opengles3-book\bin\Chapter_2\Hello_Triangle\Hello_Triangle.vcxproj">
+      <Project>{D188A19F-D42E-3426-8540-1210D6F3B293}</Project>
+      <Name>Hello_Triangle</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\opengles3-book\bin\Chapter_7\Instancing\Instancing.vcxproj">
+      <Project>{F3A512EA-F544-3CF5-B40A-74544697F004}</Project>
+      <Name>Instancing</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\opengles3-book\bin\Chapter_11\MRTs\MRTs.vcxproj">
+      <Project>{333C3697-2192-3811-AB8D-6DECCD128D83}</Project>
+      <Name>MRTs</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\opengles3-book\bin\Chapter_6\MapBuffers\MapBuffers.vcxproj">
+      <Project>{9ACE8811-4AC6-3533-AF6A-F01C998DC51B}</Project>
+      <Name>MapBuffers</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\opengles3-book\bin\Chapter_9\MipMap2D\MipMap2D.vcxproj">
+      <Project>{105BFFD6-DA49-3FAC-BD2A-97F417E76C01}</Project>
+      <Name>MipMap2D</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\opengles3-book\bin\Chapter_10\MultiTexture\MultiTexture.vcxproj">
+      <Project>{92D98E33-6B8C-3A41-B5A9-C12D4D8E8DC5}</Project>
+      <Name>MultiTexture</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\opengles3-book\bin\Chapter_14\Noise3D\Noise3D.vcxproj">
+      <Project>{9B70D457-159E-3BD3-BAC6-C4F8EAC6C1F9}</Project>
+      <Name>Noise3D</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\opengles3-book\bin\Chapter_14\ParticleSystem\ParticleSystem.vcxproj">
+      <Project>{04658212-3ACF-35D1-BF3C-BB6228A0C3FD}</Project>
+      <Name>ParticleSystem</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\opengles3-book\bin\Chapter_14\ParticleSystemTransformFeedback\ParticleSystemTransformFeedback.vcxproj">
+      <Project>{3C1D8138-F7DD-3EE1-BB14-E7F8D485CF27}</Project>
+      <Name>ParticleSystemTransformFeedback</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\opengles3-book\bin\Chapter_14\Shadows\Shadows.vcxproj">
+      <Project>{BE4F978D-2F19-3F33-A274-8105272A55E3}</Project>
+      <Name>Shadows</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\opengles3-book\bin\Chapter_9\Simple_Texture2D\Simple_Texture2D.vcxproj">
+      <Project>{AEDFE28D-BC98-3810-9987-A4DED4E71385}</Project>
+      <Name>Simple_Texture2D</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\opengles3-book\bin\Chapter_9\Simple_TextureCubemap\Simple_TextureCubemap.vcxproj">
+      <Project>{78B56A3D-EB55-3DBF-9B89-98E0F3AD2E73}</Project>
+      <Name>Simple_TextureCubemap</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\opengles3-book\bin\Chapter_8\Simple_VertexShader\Simple_VertexShader.vcxproj">
+      <Project>{A969431E-553A-398B-94DA-B1E0E1D024FD}</Project>
+      <Name>Simple_VertexShader</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\opengles3-book\bin\Chapter_14\TerrainRendering\TerrainRendering.vcxproj">
+      <Project>{77278493-2BC0-3F5F-8512-DA86D1B3DC83}</Project>
+      <Name>TerrainRendering</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\opengles3-book\bin\Chapter_9\TextureWrap\TextureWrap.vcxproj">
+      <Project>{DA6FE4A1-DE04-382C-B2A3-CFAAECAE6915}</Project>
+      <Name>TextureWrap</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\opengles3-book\bin\Chapter_6\VertexArrayObjects\VertexArrayObjects.vcxproj">
+      <Project>{086B1EDB-98D9-3EF6-9893-26776557F930}</Project>
+      <Name>VertexArrayObjects</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\opengles3-book\bin\Chapter_6\VertexBufferObjects\VertexBufferObjects.vcxproj">
+      <Project>{A43C0010-5B16-3EE6-BD84-0D825AA5CEF3}</Project>
+      <Name>VertexBufferObjects</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

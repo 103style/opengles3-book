@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\opengles3-book\Chapter_14\ParticleSystemTransformFeedback\ParticleSystemTransformFeedback.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\opengles3-book\Chapter_14\ParticleSystemTransformFeedback\Noise3D.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\opengles3-book\Chapter_14\ParticleSystemTransformFeedback\Noise3D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\opengles3-book\Chapter_14\ParticleSystemTransformFeedback\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{C67E23E3-4BBE-33DC-94F9-9ED99F6ABB3F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{6688AB23-53B8-3B84-B0A7-F2CFCA91E0EA}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

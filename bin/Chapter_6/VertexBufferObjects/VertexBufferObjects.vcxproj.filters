@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\opengles3-book\Chapter_6\VertexBufferObjects\VertexBufferObjects.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\opengles3-book\Chapter_6\VertexBufferObjects\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{6688AB23-53B8-3B84-B0A7-F2CFCA91E0EA}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

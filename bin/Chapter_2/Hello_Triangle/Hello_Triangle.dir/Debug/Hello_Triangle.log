@@ -1,0 +1,4 @@
+﻿  Building Custom Rule D:/opengles3-book/Chapter_2/Hello_Triangle/CMakeLists.txt
+  CMake does not need to re-run because D:/opengles3-book/bin/Chapter_2/Hello_Triangle/CMakeFiles/generate.stamp is up-to-date.
+  Hello_Triangle.c
+  Hello_Triangle.vcxproj -> D:\opengles3-book\bin\Chapter_2\Hello_Triangle\Debug\Hello_Triangle.exe
